@@ -1,0 +1,5 @@
+binN <- function (data, var1) {
+ 
+  return (1 / nthroot(x = nrow(accident), n = 3) * sd(accident$HOUR) * 3.49)
+  
+}

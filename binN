@@ -1,6 +1,6 @@
-## x must be a variable of type integer or numeric.
-binN <- function (df, x) {
+## var1 must be a variable within df of type numeric or integer, e.g. "binN(df, df$var1)" would be an acceptable call.
+binN <- function (df, var1) {
  
-  return (1 / nthroot(x = nrow(df), n = 3) * sd(df$x) * 3.49)
-  
+  return (1 / nthroot(x = nrow(df), n = 3) * sd(var1) * 3.49)
+
 }

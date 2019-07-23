@@ -1,5 +1,6 @@
-binN <- function (data, var1) {
+## x must be a variable of type integer or numeric.
+binN <- function (df, x) {
  
-  return (1 / nthroot(x = nrow(accident), n = 3) * sd(accident$HOUR) * 3.49)
+  return (1 / nthroot(x = nrow(df), n = 3) * sd(df$x) * 3.49)
   
 }
